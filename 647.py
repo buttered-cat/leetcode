@@ -5,9 +5,11 @@ class Solution(object):
         """
         :type s: str
         :rtype: int
+
+        AC
+        construct table subdiagonal-wise (by length)
         """
 
-        # construct table subdiagonal-wise (by length)
 
         str_len = len(s)
         substr_num = [[0 for y in range(str_len)]for x in range(str_len)]

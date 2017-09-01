@@ -6,9 +6,10 @@ class Solution(object):
         """
         :type pairs: List[List[int]]
         :rtype: int
+
+        HUMILIATION!
         """
 
-        # HUMILIATION!
 
         pairs.sort(key=lambda x: x[1])
         last = [-0x7FFFFFFF, -0x7FFFFFFF]
